@@ -16,4 +16,11 @@
 *.ids
 *.orig
 
+# Others
+######################
+*.class
+*.*~
+*~
+.merge_file*
+
 

@@ -28,4 +28,12 @@ public class Cat extends Animal implements AnimalBreath,AnimalSleep{
     public void sleep() {
         System.out.println("Mèo ngủ "+ time);
     }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
 }

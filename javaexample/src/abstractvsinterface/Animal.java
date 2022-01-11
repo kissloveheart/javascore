@@ -23,6 +23,23 @@ public abstract class Animal {
         }
 
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public Integer getLeg() {
+        return leg;
+    }
+
+    public void setLeg(Integer leg) {
+        this.leg = leg;
+    }
+
     @Override
     public String toString() {
         return "Animal{" +
